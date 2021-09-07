@@ -1,0 +1,54 @@
+body{
+    background-size: cover;
+}
+
+.heading{
+    font-size: 20px;
+    width: 100%;
+    margin: 0px;
+    color: black;
+    font-family: cursive;
+}
+
+#start,#objects_detected,#status{
+    font-size: 18px;
+    font-family: cursive;
+}
+
+.copy_right_footer{
+    position: fixed;
+    bottom: 0;
+    background-color: gray;
+    color: white;
+    text-align: center;
+    width: 100%;
+    line-height: 3;
+    font-size: 18px;
+    font-family: cursive;
+}
+
+
+canvas{
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-top: 130px;
+    box-shadow: 5px 5px 5px white;
+}
+
+#Input{
+    height: 15px;
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-style: italic;
+    font-family: cursive;
+    font-weight: bolder;
+    color: black;
+  }
+
+ .object_name{
+     font-family: cursive;
+     font-size: 18px;
+     font-weight: bolder;
+ }
